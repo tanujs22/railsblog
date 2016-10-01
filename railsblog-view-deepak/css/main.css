@@ -97,7 +97,8 @@ textarea {
         /* ==========================================================================
        Base Styles
        ========================================================================== */
-        
+       
+
         .container{
             width: 80%;
             margin: 0 auto;
@@ -106,7 +107,19 @@ textarea {
         .hvr-overline-reveal:before{
             background: #D46C76;
         }
+        
+        #fixed-up{
+          position: fixed;
+          right:40px;
+          bottom: 25px;
+          padding: 10px 15px;
+          color: white;
+          background-color: #D46C76;
+          border: none;
+          border-radius: none;
+          z-index: 100;
 
+        }
         /* ==========================================================================
            /Base Styles
            ========================================================================== */
@@ -375,7 +388,7 @@ textarea {
    #main-body{
     padding-top: 30px;
 }
-   
+
    #main-body .form-control{
     width: 80%;
     text-align: center;
@@ -395,6 +408,59 @@ textarea {
     color: white;
     font-size: 12px;
   }
+
+/* ==========================================================================
+   Footer Start
+   ========================================================================== */
+   #footer{
+    background-color:#732E35;
+    color: white;
+   }
+   #footer-menu{
+    padding-top : 50px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+   } 
+
+   #footer-menu a{
+      color: white;
+      font-weight: bold;
+      font-size: 12px;
+      margin-right: 20px;
+      font-weight: lighter;
+      font-family: 'Merriweather', serif;
+     } 
+
+     #footer-bottom{
+      padding-top: 20px;
+      padding-bottom: 40px;
+      color: white;
+      position: relative;
+      width: 100%;
+     }
+     
+     #footer-bottom #brand{
+      font-size: 25px;
+      font-family: 'Merriweather', serif;
+      margin-right: 100px;
+      letter-spacing: 3px;
+      font-weight: lighter;
+     }
+
+     #footer-social{
+      position: absolute;
+      top:20px;
+      right: 0px;
+      color: white;
+     }
+
+     #poweredby{
+      color: rgba(255,255,255,0.4);
+     }
+
+/* ==========================================================================
+   Footer End
+   ========================================================================== */
 
 /* ==========================================================================
    Helper classes
