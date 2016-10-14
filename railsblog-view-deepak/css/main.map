@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "../scss/main.css",
+	"sources": [
+		"../scss/main.scss",
+		"../scss/base/_variables.scss",
+		"../scss/components/_navbar.scss"
+	],
+	"sourcesContent": [
+		"@import 'base/variables';\r\n@import 'components/navbar';\r\n\r\nbody{\r\n\theight:100%;\r\n\twidth:100%;\r\n}",
+		"$primary-font : 'Merriweather', serif;\r\n$secondary-font: 'Kaushan Script', cursive;\r\n$primary-color: #D46C76;",
+		"\r\n#navbar-container{\r\n  height: 200px;\r\n  width: 100%;\r\n  background: url('http://wp.magnium-themes.com/armonioso/armonioso-2/wp-content/uploads/2016/02/header-back-armonioso.jpg');\r\n}"
+	],
+	"mappings": ";AECA,AAAA,iBAAiB,CAAA;EACf,MAAM,EAAE,KAAM;EACd,KAAK,EAAE,IAAK;EACZ,UAAU,EAAE,8GAAG,GAChB;;;AFFD,AAAA,IAAI,CAAA;EACH,MAAM,EAAC,IAAK;EACZ,KAAK,EAAC,IAAK,GACX",
+	"names": []
+}

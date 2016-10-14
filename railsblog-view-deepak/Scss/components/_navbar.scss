@@ -1,0 +1,72 @@
+
+#navbar-container{
+  height: 300px;
+  width: 100%;
+  background: url('http://wp.magnium-themes.com/armonioso/armonioso-2/wp-content/uploads/2016/02/header-back-armonioso.jpg');
+  background-size:cover;
+  background-position: center center;
+  position:relative;
+  @media screen and (max-width: 768px) {
+    height: 200px;
+    }
+} 
+#brand-overlay{
+	position:absolute;
+	top:20%;
+	left:0;
+	width:100%;
+	font-family:$secondary-font;
+	text-align :center;
+    h2{
+    	font-size: 55px;
+    }
+    h4{
+    	font-size: 13px;
+    } 
+    @media screen and (max-width: 768px) {
+    	top:5%;
+    }
+}
+#navbar{
+	width:100%;
+	position: absolute;
+	bottom: 0;
+	background:white;
+	@media screen and (min-width: 1024px) {
+    background:transparent;
+    }
+}
+
+.navbar{
+	margin-bottom:auto;
+	background:transparent;
+	border:none;
+}
+
+.container-fluid{
+	width:80%;
+	margin:0 auto;
+	border-top: 1px solid grey;
+	text-align:center;
+	@media screen and (max-width: 1024px) {
+    border-top: none;
+    width:100%;
+    }
+
+    #toggleMenu{
+    	font-family: $primary-font;
+    	@media screen and (min-width: 768px) {
+    	span:first-child {
+         display:none; 
+        }
+       }
+    }
+}
+
+.navbar-nav{
+	float:none;
+}
+
+.navbar-toggle{
+	float:none;
+}
