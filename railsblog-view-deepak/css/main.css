@@ -17,8 +17,10 @@
   .dropdown-content {
     display: none;
     position: absolute;
+    z-index: 2;
+    opacity: 0.96;
     background-color: #f9f9f9;
-    min-width: 160px;
+    min-width: 18vh;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); }
     .dropdown-content a {
       color: white;
@@ -101,8 +103,187 @@
 .navbar-toggle {
   float: none; }
 
-body {
+.navbar-collapse.in {
+  overflow-y: visible; }
+
+.abc img {
+  width: 100%;
+  height: 500px; }
+
+#main-car {
+  position: relative; }
+
+.overlay {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: left;
+  background: rgba(0, 0, 0, 0.5); }
+  .overlay button {
+    background-color: #D46C76;
+    border-radius: 0;
+    border: none;
+    position: absolute;
+    left: 0; }
+  .overlay h3 {
+    font-family: "Kaushan Script", cursive;
+    color: white; }
+  .overlay h5 {
+    font-weight: bold;
+    color: white; }
+  .overlay h4 {
+    display: none;
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    letter-spacing: 1px; }
+
+.overlay .views {
+  color: white;
+  position: absolute;
+  right: 0; }
+  .overlay .views i {
+    margin: 0 5px; }
+
+.overlay .container {
+  width: 95%;
+  padding-top: 10px; }
+
+.date-views {
+  position: relative;
+  padding-bottom: 20px; }
+
+#footer {
+  background-color: #732E35;
+  color: white; }
+
+#footer-menu {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
+  #footer-menu a {
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    margin-right: 20px;
+    font-weight: lighter;
+    font-family: 'Merriweather', serif; }
+
+#footer-bottom {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  color: white;
+  position: relative;
+  width: 100%; }
+  #footer-bottom #brand {
+    font-size: 25px;
+    font-family: 'Merriweather', serif;
+    margin-right: 100px;
+    letter-spacing: 3px;
+    font-weight: lighter; }
+
+#footer-bottom span {
+  display: block; }
+
+#footer-social {
+  position: absolute;
+  top: 20px;
+  right: 0px;
+  color: white; }
+
+#poweredby {
+  color: rgba(255, 255, 255, 0.4); }
+
+#welcomeImgContainer {
+  position: relative;
+  margin-top: 20px;
+  overflow: hidden;
+  height: 250px; }
+  @media screen and (max-width: 768px) {
+    #welcomeImgContainer {
+      height: 20%; } }
+
+#welcome {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: rgba(0, 0, 0, 0.2); }
+
+#welbg {
   height: 100%;
   width: 100%; }
+
+#welbg img {
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  -webkit-transition-property: -webkit-transform;
+          transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out; }
+
+#welbg img:hover {
+  height: 120%;
+  width: 120%; }
+
+#xyz p {
+  font-family: 'Merriweather', serif;
+  font-size: 9px;
+  color: #E9E5E7;
+  letter-spacing: 1px; }
+
+#xyz h3 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 40px; }
+
+#xyz span {
+  border: 2px solid white;
+  padding: 10px 25px;
+  color: white;
+  font-family: 'Merriweather', serif;
+  font-size: 11px; }
+
+#xyz {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  top: 0;
+  left: 0;
+  text-align: center;
+  padding-top: 25%;
+  color: white; }
+
+/* ==========================================================================
+    Welcome End
+    ========================================================================== */
+#main-body {
+  padding-top: 30px; }
+
+#main-body .form-control {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto; }
+
+#main-body #xyz {
+  padding-top: 20px; }
+
+#main-body #xyz button {
+  width: 80%;
+  margin-top: 5px;
+  font-family: 'Merriweather', serif;
+  background-color: #D46C76;
+  border: none;
+  border-radius: none;
+  color: white;
+  font-size: 12px; }
+
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden; }
 
 /*# sourceMappingURL=main.css.map */

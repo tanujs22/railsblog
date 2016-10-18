@@ -1,0 +1,51 @@
+#footer{
+    background-color:#732E35;
+    color: white;
+   }
+   #footer-menu{
+    padding-top : 50px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    a{
+      color: white;
+      font-weight: bold;
+      font-size: 12px;
+      margin-right: 20px;
+      font-weight: lighter;
+      font-family: 'Merriweather', serif;
+     } 
+   }
+    
+     #footer-bottom{
+      padding-top: 20px;
+      padding-bottom: 40px;
+      color: white;
+      position: relative;
+      width: 100%;
+     
+     
+     #brand{
+      font-size: 25px;
+      font-family: 'Merriweather', serif;
+      margin-right: 100px;
+      letter-spacing: 3px;
+      font-weight: lighter;
+     }
+     
+     
+   }
+
+     #footer-bottom span{
+      display: block;
+     }
+
+     #footer-social{
+      position: absolute;
+      top:20px;
+      right: 0px;
+      color: white;
+     }
+
+     #poweredby{
+      color: rgba(255,255,255,0.4);
+     }
